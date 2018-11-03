@@ -1,38 +1,36 @@
-<!--
-   logowanie.html
-   
-   Copyright 2018 kl2ag2 <kl2ag2@ubu03>
-   
-   This program is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; either version 2 of the License, or
-   (at your option) any later version.
-   
-   This program is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-   
-   You should have received a copy of the GNU General Public License
-   along with this program; if not, write to the Free Software
-   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-   MA 02110-1301, USA.
-   
-   
--->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<head>
-	<title>bez nazwy</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<meta name="generator" content="Geany 1.32" />
-</head>
+    <title>Strona logowania</title>
 
-<body>
-	
-</body>
+    <!-- Bootstrap CSS -->
+    <link href="dist/css/bootstrap1.min.css" rel="stylesheet">
 
+    <!-- Style CSS -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form class="form-signin">
+      <img class="mb-4" src="images/logocg.gif" alt="" class="logo">
+      <h1 class="h3 mb-3 font-weight-normal">Proszę się zalogować</h1>
+      <label for="inputEmail" class="sr-only">Podaj adres e-mail</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Adres e-mail" required autofocus>
+      <label for="inputPassword" class="sr-only">Hasło</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Hasło" required>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Pamiętaj mnie
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Wpisz się</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+    </form>
+  </body>
 </html>
